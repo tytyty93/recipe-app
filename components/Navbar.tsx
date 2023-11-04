@@ -13,9 +13,7 @@ const Navbar = async () => {
         <Link href="/" className="flex gap-2 items-center">
           <Image alt="recipe" src="/cook-book.svg" width={50} height={50} />
           {/* <Icons.favicon className="h-8 w-8 sm:w-6 sm:h-6 justify-center items-center" /> */}
-          <p className="hidden text-zinc-700 text-sm font-medium md:block">
-            RecipeApp
-          </p>
+          <p className="hidden text-sm font-medium md:block">RecipeApp</p>
         </Link>
         {session?.user ? (
           <UserAccountNav user={session.user} />
