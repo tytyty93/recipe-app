@@ -1,3 +1,9 @@
+1) Ensure that you have your google auth account created and get the API keys
+2) Ensure that you have next secret entered as well in .env file
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
